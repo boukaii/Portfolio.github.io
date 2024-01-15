@@ -69,7 +69,7 @@ export const phpProject = [
     {
         id: 2,
         titre: 'Site Recettes du monde',
-        image: twitter,
+        image: book,
         description: "",
         lien: 'https://github.com/boukaii/p11-GUDLFT',
     },
