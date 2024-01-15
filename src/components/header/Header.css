@@ -1,0 +1,85 @@
+.header{
+    margin-top: 2%;
+    height: 112vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-size:100% auto;
+    /* width: auto; */
+}
+.contenue{
+    max-width: 800px;
+}
+.contenue h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.contenue h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0 40px;
+}
+.btn-procjet:hover{
+    background: rgb(37, 145, 245);
+    color: white;
+    border-bottom-color: white;
+    transition: 0.3s;
+}
+.btn-procjet{
+    background: white;
+    color: black;
+    border-bottom-color:white;
+    border: solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+
+
+/* Ajoutez ces styles à la fin de votre fichier CSS */
+
+/* Media Query pour les tablettes */
+@media only screen and (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 5% 10%;
+  }
+  .contenue {
+    max-width: 100%;
+  }
+  .contenue h1 {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  .contenue h2 {
+    font-size: 24px;
+    margin: 15px 0 30px;
+  }
+  .btn-procjet {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+/* Media Query pour les téléphones */
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 5% 5%;
+  }
+  .contenue h1 {
+    font-size: 28px;
+  }
+  .contenue h2 {
+    font-size: 18px;
+    margin: 10px 0 20px;
+  }
+  .btn-procjet {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}

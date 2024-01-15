@@ -1,0 +1,77 @@
+.heading{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.heading h2{
+    margin-top: 5%;
+    color: rgb(37, 145, 245);
+}
+.heading1{
+    background: #f4f4f4;
+    margin-bottom: 5%;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.about-us img{
+    flex: 0 50%;
+    max-width: 50%;
+    max-width: 450px;
+    height: auto;
+}
+.content{
+    padding: 35px;
+    margin-bottom: 10%;
+}
+.content span{
+    color: rgb(37, 145, 245);
+    font-weight: bold;
+}
+.content h3{
+    font-size: 24px;
+    margin: 15px 0px;
+    padding-top: 12%;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
+
+/* Media Query pour les tablettes en orientation paysage */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .about-us {
+      flex-direction: row; /* Ajustez la direction de la flexbox pour l'orientation paysage des tablettes */
+    }
+  
+    .about-us img {
+      max-width: 40%; /* Réduisez la largeur de l'image pour les tablettes en orientation paysage */
+      margin-bottom: 0; /* Supprimez la marge en bas pour l'orientation paysage des tablettes */
+    }
+  
+    .content {
+      padding: 35px; /* Rétablissez la marge intérieure initiale */
+      width: 60%; /* Rétablissez la largeur initiale pour le contenu */
+    }
+  }
+  
+  /* Media Query pour les écrans plus petits, par exemple, les téléphones */
+  @media only screen and (max-width: 767px) {
+    .about-us {
+      flex-direction: column; /* Ajustez la direction de la flexbox pour les téléphones */
+    }
+  
+    .about-us img {
+      max-width: 100%; /* Utilisez 100% de la largeur pour les téléphones */
+    }
+  
+    .content {
+      padding: 20px; /* Ajustez la marge intérieure pour les téléphones */
+      width: 100%; /* Utilisez 100% de la largeur pour le contenu des téléphones */
+    }
+  }
+  

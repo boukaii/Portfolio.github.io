@@ -1,0 +1,55 @@
+.title-competence{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(37, 145, 245);
+}
+.p-compt {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.CP1{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 2rem;
+    padding: 10px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img {
+    background-color: rgb(249 250 251);
+}
+.test{
+    flex-wrap: wrap;
+    padding: 15px 15px;
+    transition: transform .1s;
+}
+.test:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+}
+
+/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
+
+/* Media Query pour les tablettes en orientation paysage */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .CP1 {
+      margin-left: 2%; /* Ajustez la marge à gauche pour les tablettes en orientation paysage */
+      margin-right: 2%; /* Ajustez la marge à droite pour les tablettes en orientation paysage */
+    }
+  }
+  
+  /* Media Query pour les écrans plus petits, par exemple, les téléphones */
+  @media only screen and (max-width: 767px) {
+    .CP1 {
+      flex-direction: column; /* Ajustez la direction de la flexbox pour les téléphones */
+      align-items: center; /* Centrez les éléments pour les téléphones */
+    }
+  
+    .test {
+      margin-bottom: 10px; /* Ajoutez un espace entre les éléments pour les téléphones */
+    }
+  }
+  

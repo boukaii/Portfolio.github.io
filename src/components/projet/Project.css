@@ -1,0 +1,142 @@
+.full-projet{
+  background-color: rgb(243 244 246);
+  margin-top: 10%;
+}
+.full-projet h3{
+  margin-top: 2%;
+  text-align: center;
+}
+.intro-projet{
+    text-align: center;
+}
+.intro-projet h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: rgb(37, 145, 245);
+}
+.intro-projet h3{
+  margin-bottom: 1%;
+}
+.container {
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+ }
+ .container h3{
+  display: flex;
+  justify-content: center;
+ }
+ .card {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+   width: 22em;
+  margin: 20px;
+   padding: 2em 0;
+   background: #FFF;
+   box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+   transition: all 0.35s ease;
+   margin-top: 15%;
+   margin-bottom: 15%;
+ }
+ .card::before, .card::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: #000;
+   height: 4px;
+ }
+ .card::before {
+   width: 0;
+   opacity: 0;
+   transition: opacity 0 ease, width 0 ease;
+   transition-delay: 0.5s;
+ }
+ .card::after {
+   width: 100%;
+   background: white;
+   transition: width 0.5s ease;
+ }
+ .card .content {
+   /* width: 18em; */
+   max-width: 100%;
+ }
+ .card .logo {
+  width: 5rem;
+  background: white;
+   margin: 0 0 1em;
+   transition: all 0.35s ease;
+ }
+ .card h5 {
+   color: black;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin: 10;
+ }
+ .card .hover_content {
+   overflow: hidden;
+   max-height: 0;
+   transform: translateY(1em);
+   transition: all 0.55s ease;
+ }
+ .card .hover_content p {
+   margin: 1.5em 0 0;
+   color: black;
+   line-height: 1.4em;
+ }
+ .card:hover {
+   width: 24em;
+   box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+ }
+ .card:hover::before {
+   width: 100%;
+   opacity: 1;
+   transition: opacity 0.5s ease, width 0.5s ease;
+   transition-delay: 0;
+ }
+ .card:hover::after {
+   width: 0;
+   opacity: 0;
+   transition: width 0 ease;
+ }
+ .card:hover .logo {
+   margin-bottom: 0.5em;
+ }
+ .card:hover .hover_content {
+   max-height: 30em;
+   transform: none;
+ }
+/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
+
+/* Media Query pour les tablettes en orientation paysage */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .full-projet {
+    margin-top: 5%; /* Ajustez la marge pour les tablettes en orientation paysage */
+  }
+  .container {
+    margin-top: 5%; /* Ajustez la marge pour les tablettes en orientation paysage */
+  }
+}
+
+/* Media Query pour les téléphones */
+@media only screen and (max-width: 767px) {
+  .full-projet {
+    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+  }
+  .intro-projet {
+    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+  }
+  .container {
+    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+  }
+  .card {
+    width: 90%; /* Ajustez la largeur des cartes pour les téléphones */
+    margin: 10px auto; /* Centrez les cartes pour les téléphones */
+  }
+}

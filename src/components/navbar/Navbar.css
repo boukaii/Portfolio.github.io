@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+}
+.navbar a {
+  color: rgb(0, 0, 0);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar .logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(37, 145, 245);
+}
+.nav-links{
+  margin-left: 30%;
+}
+.navbar .nav-links ul {
+  display: flex;
+  scroll-behavior: smooth;
+}
+.navbar .nav-links ul li.active a {
+  font-weight: 600;
+  scroll-behavior: smooth;
+}
+nav ul li a:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(37, 145, 245);
+  border-radius: 3px;
+  transition: .3s;
+  scroll-behavior: smooth;
+}
+
+/* Ajoutez des Media Queries pour rendre la navbar responsive */
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex; /* Affichez les liens lorsque la largeur d'écran est supérieure à 768px */
+    margin-left: auto; /* Alignez les liens à droite de l'écran */
+  }
+
+  .navbar a {
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+  }
+}
+/* Ajoutez une Media Query pour les écrans plus petits, par exemple, les téléphones */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column; /* Passez à une disposition en colonne pour les petits écrans */
+    text-align: center; /* Centrez le contenu dans la disposition en colonne */
+  }
+
+  .navbar .nav-links {
+    margin-left: 0; /* Réinitialisez la marge à zéro pour les petits écrans */
+  }
+
+  .navbar .nav-links ul {
+    flex-direction: column; /* Affichez les liens en colonne pour les petits écrans */
+    margin: 0; /* Réinitialisez la marge à zéro pour les petits écrans */
+    padding: 0; /* Réinitialisez le rembourrage à zéro pour les petits écrans */
+  }
+
+  .navbar .nav-links ul li {
+    width: 100%; /* Forcez chaque lien à occuper la largeur complète */
+  }
+}
+
