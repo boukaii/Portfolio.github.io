@@ -5,7 +5,8 @@ import api from "../../images/api.png";
 import restaurant from "../../images/restaurant.png";
 import examen from "../../images/examen.png";
 import tache from "../../images/tache.png";
-import twitter from "../../images/twitter.png";
+import book from "../../images/book.png";
+
 
 
 const pythonProject = [
