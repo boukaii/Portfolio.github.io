@@ -71,7 +71,7 @@ export const phpProject = [
         id: 2,
         titre: 'Site Recettes du monde',
         image: book,
-        description: "",
+        description: " Ce projet a été développé avec le framework Symfony pour créer un blog interactif permettant aux utilisateurs de partager, découvrir et créer des recettes de cuisine délicieuses.",
         lien: 'https://github.com/boukaii/p11-GUDLFT',
     },
     {
