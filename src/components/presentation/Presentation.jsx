@@ -8,7 +8,7 @@ function Presentation() {
         <div class="heading1" id="nav-pres">
             <div class="heading">
                 <br />
-                <h2 id="mlk">A PROPOS DE MOI</h2>
+                <h2 id="mlk">A PROPOS DE MOIi</h2>
             </div>
             <section class="about-us">
                 <img src={aaa} class="bvb"></img>
