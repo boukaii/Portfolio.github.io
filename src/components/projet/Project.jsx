@@ -51,7 +51,7 @@ function Project({ python, php, react }) {
                     </div>
                   ))}
             </section>
-            <h3>Projet réalisé en React</h3>
+            <h3>Projet réalisé en React et JavaScript</h3>
             <section className="container">
                   {react.map((item) => (
                     <div key={item.id} >

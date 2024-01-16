@@ -6,7 +6,9 @@ import restaurant from "../../images/restaurant.png";
 import examen from "../../images/examen.png";
 import tache from "../../images/tache.png";
 import book from "../../images/book.png";
-
+import netflix from "../../images/netflix.png";
+import blog from "../../images/blog.png";
+import donne from "../../images/donne.png";
 
 
 const pythonProject = [
@@ -38,11 +40,24 @@ const pythonProject = [
         description: "Projet qui consiste a résoudre et éviter des beugues en fesant des tests unitaires, fonctionnels, d'intégrations et de performances.",
         lien: 'https://github.com/boukaii/p11-GUDLFT',
     },
+    {
+        id: 5,
+        titre: 'BookTalk',
+        image: blog,
+        description: "Connectez-vous, Créez, Partagez et Commentez.",
+        lien: 'https://github.com/boukaii/p11-GUDLFT',
+    },
+    {
+        id: 6,
+        titre: 'Scrapping Book',
+        image: donne,
+        description: "Connectez-vous, Créez, Partagez et Commentez.",
+        lien: 'https://github.com/boukaii/p11-GUDLFT',
+    },
 ]
 export const phpProject = [
     {
         id: 1,
-        titre_global: 'Projet réalisé en PHP / Symfony',
         titre: 'Task-Manager',
         image: tache,
         description: "Projet de Gestion de Tâches, qui consiste a utiliser la méthode CRUD ainsi que l'architecture MVC.",
@@ -67,8 +82,14 @@ export const reactProject = [
     {
         id: 1,
         titre: 'PortFolio ', 
-        titre_global: 'Projet réalisé en Python / Django',
         image: portfolio,
+        description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
+        lien: 'https://github.com/boukaii/Portfolio',
+    },
+    {
+        id: 2,
+        titre: 'Clone Netflix ', 
+        image: netflix,
         description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
         lien: 'https://github.com/boukaii/Portfolio',
     },
