@@ -42,17 +42,17 @@ const pythonProject = [
     },
     {
         id: 5,
-        titre: 'BookTalk',
+        titre: 'Book_Talk',
         image: blog,
-        description: "Connectez-vous, Créez, Partagez et Commentez.",
-        lien: 'https://github.com/boukaii/p11-GUDLFT',
+        description: "Connectez-vous, Créez, Partagez, Commentez et suivez vos amis.",
+        lien: 'https://github.com/boukaii/p9-LITReview.git',
     },
     {
         id: 6,
         titre: 'Scrapping Book',
         image: donne,
-        description: "Connectez-vous, Créez, Partagez et Commentez.",
-        lien: 'https://github.com/boukaii/p11-GUDLFT',
+        description: "L'objectif de ce projet est d'extraire des informations issues d'un site Web (images, prix, auteur, description....).",
+        lien: 'https://github.com/boukaii/p2-scraping_books.git',
     },
 ]
 export const phpProject = [
@@ -61,20 +61,20 @@ export const phpProject = [
         titre: 'Task-Manager',
         image: tache,
         description: "Projet de Gestion de Tâches, qui consiste a utiliser la méthode CRUD ainsi que l'architecture MVC.",
-        lien: 'https://github.com/boukaii/p11-GUDLFT',
+        lien: 'https://github.com/boukaii/PHP-Task_manager.git',
     },
     {
         id: 2,
         titre: 'Site Recettes du monde',
         image: book,
-        description: " Ce projet a été développé avec le framework Symfony pour créer un blog interactif permettant aux utilisateurs de partager, découvrir et créer des recettes de cuisine délicieuses.",
-        lien: 'https://github.com/boukaii/p11-GUDLFT',
+        description: "Ce projet a été développé avec le framework Symfony pour créer un blog interactif permettant aux utilisateurs de partager, découvrir et créer des recettes de cuisine délicieuses.",
+        lien: 'https://github.com/boukaii/Symfony-Blog.git',
     },
     {
         id: 3,
         titre: 'Site Restaurant',
         image: restaurant,
-        description: "Site web réalisé pour un restaurant fictif.",
+        description: "Site en construction",
         lien: '',
     },
 ]
@@ -83,15 +83,15 @@ export const reactProject = [
         id: 1,
         titre: 'PortFolio ', 
         image: portfolio,
-        description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
-        lien: 'https://github.com/boukaii/Portfolio',
+        description: "Voici mon PortFolio réalisé en React à l'aide du JSX et de CSS.",
+        lien: 'https://github.com/boukaii/Portfolio.git',
     },
     {
         id: 2,
         titre: 'Clone Netflix ', 
         image: netflix,
-        description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
-        lien: 'https://github.com/boukaii/Portfolio',
+        description: "Ce projet consiste a récupérer des informations d'une API en JavaScript.",
+        lien: 'https://github.com/boukaii/p6-JustStreamIt.git',
     },
 ]
 export default pythonProject;

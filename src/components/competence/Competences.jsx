@@ -11,7 +11,7 @@ function Competences() {
                     <img src="https://www.vectorlogo.zone/logos/php/php-ar21.svg" alt="" />
                 </div>
                 <div className="test">
-                    <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="" />
+                    <img src="https://www.vectorlogo.zone/logos/symfony/symfony-ar21.svg" alt="" />
                 </div>
                 <div className="test">
                     <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" alt="" />
@@ -20,14 +20,18 @@ function Competences() {
                     <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="" />
                 </div>
                 <div className="test">
-                    <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="" />
+                    <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="" />
                 </div>
                 <div className="test">
-                    <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="" />
+                    <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="" />
                 </div>
                 <div className="test">
                     <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="" />
                 </div>
+                <div className="test">
+                    <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="" />
+                </div>
+                
                 <div className="test">
                     <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg" alt="" />
                 </div>
@@ -40,9 +44,7 @@ function Competences() {
                 <div className="test">
                     <img src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg" alt="" />
                 </div>
-                <div className="test">
-                    <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="" />
-                </div>
+         
                 <div className="test">
                     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="" />
                 </div>

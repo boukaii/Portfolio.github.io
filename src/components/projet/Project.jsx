@@ -27,7 +27,8 @@ function Project({ python, php, react }) {
                       <h5>{item.titre}</h5>
                       <div className="hover_content">
                         <p>{item.description}</p>
-                        <a className="" href={item.lien}>En savoir plus</a>
+                        <br></br>
+                        <a className="lien_git" href={item.lien}>En savoir plus</a>
                       </div>
                     </div>  
                   </div>
@@ -44,7 +45,8 @@ function Project({ python, php, react }) {
                           <h5>{item.titre}</h5>
                           <div className="hover_content">
                             <p>{item.description}</p>
-                            <a className="" href={item.lien}>En savoir plus</a>
+                            <br></br>
+                            <a className="lien_git" href={item.lien}>En savoir plus</a>
                           </div>
                         </div>  
                       </div>
@@ -61,7 +63,8 @@ function Project({ python, php, react }) {
                           <h5>{item.titre}</h5>
                           <div className="hover_content">
                             <p>{item.description}</p>
-                            <a className="" href={item.lien}>Voir le GitHub</a>
+                            <br></br>
+                            <a className="lien_git" href={item.lien}>En savoir plus</a>
                           </div>
                         </div>  
                       </div>

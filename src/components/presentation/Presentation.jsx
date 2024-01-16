@@ -27,7 +27,7 @@ function Presentation() {
                         Ce qui m'a permis également de développer une base de données <span>PostgreSQL</span> sécurisée ainsi que
                         d'améliorer des applications en les <span>testant</span>, en les <span>débugant</span> et en les remaniant.
                         <br />
-                        J'ai également appris à maitriser la <span>POO</span> et la <span>conception MVC</span> ce qui me permet actuellement d'apprendre et de consolider mes connaissances avec le langage <span>PHP</span>.
+                        J'ai également appris à maitriser la <span>POO</span> et la <span>conception MVC</span> ce qui me permet actuellement d'apprendre et de consolider mes connaissances avec le langage <span>PHP</span> et le framework <span>Symfony</span>.
                         <br />
                         <br />
                         Officiellement diplomé, je suis actuellement à la recherche d'opportunités d'emploi sur Lyon
