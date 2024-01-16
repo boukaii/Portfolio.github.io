@@ -15,7 +15,7 @@ Bienvenue sur mon portfolio personnel réalisé en React. Ce projet vise à pré
 1. Clonez ce dépôt sur votre machine locale :
 
     ```bash
-    git clone https://github.com/votre-utilisateur/mon-portfolio.git
+    git clone git clone https://github.com/boukaii/Portfolio.git
     ```
 
 2. Accédez au répertoire du projet :
@@ -40,21 +40,6 @@ Bienvenue sur mon portfolio personnel réalisé en React. Ce projet vise à pré
 
 ## Technologies utilisées
 
-- React.js
+- React.jsx
 - React Router
-- CSS (Sass/SCSS)
-- ...
-
-## Captures d'écran
-
-![Accueil](screenshots/home.png)
-
-![Projets](screenshots/projects.png)
-
-## Contributions
-
-Les contributions sont les bienvenues ! Si vous souhaitez apporter des améliorations, signaler des problèmes ou simplement donner des retours, n'hésitez pas à ouvrir une issue ou à soumettre une pull request.
-
-## Licence
-
-Ce projet est sous licence [MIT](LICENSE).
+- CSS
