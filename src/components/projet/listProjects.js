@@ -12,52 +12,33 @@ import book from "../../images/book.png";
 const pythonProject = [
     {
         id: 1,
-        titre: 'PortFolio ', 
-        titre_global: 'Projet réalisé en Python / Django',
-        image: portfolio,
-        description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
-        lien: 'https://github.com/boukaii/Portfolio',
-    },
-    {
-        id: 2,
         titre: 'Logiciel de gestion en POO et MVC',
         image: poo,
         description: "Programme qui réalise un tournoi de gestion de jeux d'échecs réalisé en programmation Orientée Objet et en utilisant également la conception MVC.",
         lien: 'https://github.com/boukaii/p4-tournoi_echecs',
     },
     {
-        id: 3,
+        id: 2,
         titre: "Création d'algorithmes",
         image: competence,
         description: "Résoudre des problèmes en utilisant des algorithmes en Python afin d'obtenir le meilleur investissement.",
         lien: 'https://github.com/boukaii/p7-AlgoInvest-Trade',
     },
     {
-        id: 4,
-        titre: 'Site Restaurant',
-        image: restaurant,
-        description: 'Site web réalisé pour un restaurant fictif.',
-        lien: '',
-    },
-    {
-        id: 5,
+        id: 3,
         titre: 'API Restful',
         image: api,
         description: "Projet consistant à créer une API Restful pour une société fictive.",
         lien: 'https://github.com/boukaii/p10-SoftDesk',
     },
     {
-        id: 6,
+        id: 4,
         titre: 'Concevoir des test',
         image: examen,
         description: "Projet qui consiste a résoudre et éviter des beugues en fesant des tests unitaires, fonctionnels, d'intégrations et de performances.",
         lien: 'https://github.com/boukaii/p11-GUDLFT',
     },
 ]
-
-
-
-
 export const phpProject = [
     {
         id: 1,
@@ -80,6 +61,16 @@ export const phpProject = [
         image: restaurant,
         description: "Site web réalisé pour un restaurant fictif.",
         lien: '',
+    },
+]
+export const reactProject = [
+    {
+        id: 1,
+        titre: 'PortFolio ', 
+        titre_global: 'Projet réalisé en Python / Django',
+        image: portfolio,
+        description: "Voici mon PortFolio réalisé en React ainsi que du HTML et CSS.",
+        lien: 'https://github.com/boukaii/Portfolio',
     },
 ]
 export default pythonProject;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css"
 
 
-function Project({ python, php }) {
+function Project({ python, php, react }) {
         return (
           <div id='nav-projet' className="full-projet">
             <div className="intro-projet">
@@ -45,6 +45,23 @@ function Project({ python, php }) {
                           <div className="hover_content">
                             <p>{item.description}</p>
                             <a className="" href={item.lien}>En savoir plus</a>
+                          </div>
+                        </div>  
+                      </div>
+                    </div>
+                  ))}
+            </section>
+            <h3>Projet réalisé en React</h3>
+            <section className="container">
+                  {react.map((item) => (
+                    <div key={item.id} >
+                      <div className="card">
+                        <div className="content">
+                          <img className="logo" src={item.image} alt="mparticle" />
+                          <h5>{item.titre}</h5>
+                          <div className="hover_content">
+                            <p>{item.description}</p>
+                            <a className="" href={item.lien}>Voir le GitHub</a>
                           </div>
                         </div>  
                       </div>
