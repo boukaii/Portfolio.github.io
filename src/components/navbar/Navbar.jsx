@@ -7,14 +7,17 @@ const Navbar = () => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-
   return (
     <nav className="navbar">
-      <a href="" className="logo">Chevrier.G</a>
-      <div className={`nav-links ${showMenu ? 'show' : ''}`}>
+      <div className="logo-container">
+        <a href="" className="logo">Chevrier.G</a>
+      </div>
+      <div className="burger-container">
         <button className="burger-menu" onClick={toggleMenu}>
           ☰
         </button>
+      </div>
+      <div className={`nav-links ${showMenu ? 'show' : ''}`}>
         <ul>
           <li><a className="active" href="#nav-pres">A PROPOS DE MOI</a></li>
           <li><a href="#nav-compet">COMPETENCES</a></li>
@@ -25,6 +28,9 @@ const Navbar = () => {
       </div>
     </nav>
   );
+  
+  
+
 }
 
 export default Navbar;
