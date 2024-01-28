@@ -74,7 +74,7 @@ export const phpProject = [
         id: 3,
         titre: 'Site Restaurant',
         image: restaurant,
-        description: "Site en construction",
+        description: "Site en construction, projet qui consistera à pouvoir ajouter dans son panier un produit, à le payer et à le commander.",
         lien: 'https://github.com/boukaii/Meal_purchase_and_delivery_site.git',
     },
 ]

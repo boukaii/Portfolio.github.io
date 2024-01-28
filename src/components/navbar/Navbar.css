@@ -59,12 +59,13 @@
 @media (max-width: 767px) {
 
 
-
   .nav-links {
     margin-right: 25%;
   }
 
-
+  .navbar{
+    padding: auto;
+  }
 
 
 
@@ -82,6 +83,7 @@
   .navbar .nav-links ul {
     display: none;
     text-align: center;
+    
   }
 
   .navbar .nav-links.show ul {
