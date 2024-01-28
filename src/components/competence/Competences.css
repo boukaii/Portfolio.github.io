@@ -16,6 +16,8 @@
     padding: 10px 10px;
     margin-left: 5%;
     margin-right: 5%;
+    left: 5%;
+    position: relative;
 }
 img {
     background-color: rgb(249 250 251);

@@ -8,7 +8,7 @@ import tache from "../../images/tache.png";
 import book from "../../images/book.png";
 import netflix from "../../images/netflix.png";
 import blog from "../../images/blog.png";
-import donne from "../../images/donne.png";
+import data from "../../images/data.png";
 
 
 const pythonProject = [
@@ -50,7 +50,7 @@ const pythonProject = [
     {
         id: 6,
         titre: 'Scrapping Book',
-        image: donne,
+        image: data,
         description: "L'objectif de ce projet est d'extraire des informations issues d'un site Web (images, prix, auteur, description....).",
         lien: 'https://github.com/boukaii/p2-scraping_books.git',
     },
@@ -68,14 +68,14 @@ export const phpProject = [
         titre: 'Site Recettes du monde',
         image: book,
         description: "Ce projet a été développé avec le framework Symfony pour créer un blog interactif permettant aux utilisateurs de partager, découvrir et créer des recettes de cuisine délicieuses.",
-        lien: 'https://github.com/boukaii/Symfony-Blog.git',
+        lien: 'https://github.com/boukaii/Recipe_blog.git',
     },
     {
         id: 3,
         titre: 'Site Restaurant',
         image: restaurant,
         description: "Site en construction",
-        lien: '',
+        lien: 'https://github.com/boukaii/Meal_purchase_and_delivery_site.git',
     },
 ]
 export const reactProject = [

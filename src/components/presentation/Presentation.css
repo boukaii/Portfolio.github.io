@@ -40,40 +40,36 @@
     line-height: 1.5;
     margin: 15px 0px;
 }
-/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
 
-/* Media Query pour les tablettes en orientation paysage */
-/* Media Query pour les tablettes en orientation paysage */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .about-us {
-    flex-direction: row; /* Ajustez la direction de la flexbox pour l'orientation paysage des tablettes */
+    flex-direction: row;
   }
 
   .about-us img {
-    max-width: 100%; /* Utilisez 100% de la largeur pour les tablettes en orientation paysage */
-    margin-bottom: 0; /* Supprimez la marge en bas pour l'orientation paysage des tablettes */
+    max-width: 100%;
+    margin-bottom: 0;
   }
 
   .content {
-    padding: 35px; /* Rétablissez la marge intérieure initiale */
-    width: 60%; /* Rétablissez la largeur initiale pour le contenu */
+    padding: 35px;
+    width: 60%;
   }
 }
 
   
-/* Media Query pour les écrans plus petits, par exemple, les téléphones */
 @media only screen and (max-width: 767px) {
   .about-us {
-    flex-direction: column; /* Ajustez la direction de la flexbox pour les téléphones */
+    flex-direction: column;
   }
 
   .about-us img {
-    max-width: 100%; /* Utilisez 100% de la largeur pour les téléphones */
-    height: auto; /* Gardez le rapport hauteur/largeur pour les téléphones */
+    max-width: 100%;
+    height: auto;
   }
 
   .content {
-    padding: 20px; /* Ajustez la marge intérieure pour les téléphones */
-    width: 100%; /* Utilisez 100% de la largeur pour le contenu des téléphones */
+    padding: 20px;
+    width: 100%;
   }
 }

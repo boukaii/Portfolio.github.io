@@ -1,6 +1,6 @@
 import React from "react";
 import "./Presentation.css";
-import aaa from "../../images/aaa.jpg";
+import moi from "../../images/moi.jpg";
 
 
 function Presentation() {
@@ -11,7 +11,7 @@ function Presentation() {
                 <h2 id="mlk">A PROPOS DE MOI</h2>
             </div>
             <section class="about-us">
-                <img src={aaa} class="bvb"></img>
+                <img src={moi} class="bvb"></img>
                 <div className="content">
                     <h3>MON PARCOURS</h3>
                     <p>Ancien Ambulancier et passionné par l'informatique depuis le plus jeune âge,<br />

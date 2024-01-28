@@ -37,10 +37,6 @@
 }
 
 
-
-
-/* ... Votre CSS existant ... */
-
 .burger-menu {
   display: none;
   font-size: 1.5em;
@@ -58,7 +54,7 @@
 
   .navbar .burger-menu {
     display: block;
-    margin: 30px; /* Centrez le bouton burger horizontalement */
+    margin: 30px;
     margin-left: 0.2px;
   }
 

@@ -9,8 +9,6 @@ import Presentation from './presentation/Presentation'
 import Header from './header/Header'
 import "./App.css"
 
-
-
 function App() {
   return (
     <div>

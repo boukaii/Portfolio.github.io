@@ -40,27 +40,24 @@ li{
     list-style: none;
 }
 
-/* Ajoutez ces ajustements à la fin de vos Media Queries */
-
-/* Media Query pour les téléphones */
 @media only screen and (max-width: 767px) {
     .link-footer {
-      margin: 15px; /* Ajustez la marge pour les téléphones */
-      margin-right: 0; /* Réinitialisez la marge à zéro */
+      margin: 15px;
+      margin-right: 0; 
     }
     .global-footer {
-      flex-direction: column; /* Changez la direction de la flexbox pour les téléphones */
-      align-items: center; /* Centrez les éléments pour les téléphones */
+      flex-direction: column; 
+      align-items: center;
     }
     .global-footer .link-footer {
-      margin-right: 0; /* Réinitialisez la marge pour les téléphones */
-      text-align: center; /* Centrez le texte pour les téléphones */
+      margin-right: 0;
+      text-align: center;
     }
     .global-footer h3 {
-      margin-bottom: 2%; /* Ajustez la marge pour les téléphones */
+      margin-bottom: 2%;
     }
     .titre-footer {
-      margin-top: 2%; /* Ajustez la marge pour les téléphones */
+      margin-top: 2%;
     }
   }
   

@@ -64,7 +64,6 @@
    transition: width 0.5s ease;
  }
  .card .content {
-   /* width: 18em; */
    max-width: 100%;
  }
  .card .logo {
@@ -112,31 +111,29 @@
    max-height: 30em;
    transform: none;
  }
-/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
 
-/* Media Query pour les tablettes en orientation paysage */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .full-projet {
-    margin-top: 5%; /* Ajustez la marge pour les tablettes en orientation paysage */
+    margin-top: 5%;
   }
   .container {
-    margin-top: 5%; /* Ajustez la marge pour les tablettes en orientation paysage */
+    margin-top: 5%;
   }
 }
 
-/* Media Query pour les téléphones */
+
 @media only screen and (max-width: 767px) {
   .full-projet {
-    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+    margin-top: 5%;
   }
   .intro-projet {
-    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+    margin-top: 5%;
   }
   .container {
-    margin-top: 5%; /* Ajustez la marge pour les téléphones */
+    margin-top: 5%;
   }
   .card {
-    width: 90%; /* Ajustez la largeur des cartes pour les téléphones */
-    margin: 10px auto; /* Centrez les cartes pour les téléphones */
+    width: 90%;
+    margin: 10px auto;
   }
 }
