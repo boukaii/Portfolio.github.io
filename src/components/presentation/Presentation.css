@@ -64,12 +64,13 @@
   }
 
   .about-us img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-  }
+}
+
 
   .content {
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
   }
 }
