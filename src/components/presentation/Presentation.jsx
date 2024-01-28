@@ -33,7 +33,7 @@ function Presentation() {
                         Officiellement diplomé, je suis actuellement à la recherche d'opportunités d'emploi sur Lyon
                         et ses alentours en tant que développeur.</p>
                         <br />
-                    <a href="#" class="btn-projet">Télécharger mon cv</a>
+                    <a href="/media/cv.pdf" class="btn-projet">Télécharger mon cv</a>
                 </div>
             </section>
         </div>

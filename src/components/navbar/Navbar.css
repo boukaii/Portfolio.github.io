@@ -29,46 +29,50 @@
   font-weight: 600;
   scroll-behavior: smooth;
 }
-nav ul li a:hover{
+.navbar .nav-links ul li a:hover {
   color: rgb(255, 255, 255);
   background: rgb(37, 145, 245);
   border-radius: 3px;
   transition: .3s;
-  scroll-behavior: smooth;
 }
 
-/* Ajoutez des Media Queries pour rendre la navbar responsive */
-@media (min-width: 768px) {
-  .nav-links {
-    display: flex; /* Affichez les liens lorsque la largeur d'écran est supérieure à 768px */
-    margin-left: auto; /* Alignez les liens à droite de l'écran */
-  }
 
-  .navbar a {
-    padding: 14px 16px;
-    display: block;
-    text-align: center;
-  }
+
+
+/* ... Votre CSS existant ... */
+
+.burger-menu {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
 }
-/* Ajoutez une Media Query pour les écrans plus petits, par exemple, les téléphones */
+
+.nav-links {
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .navbar {
-    flex-direction: column; /* Passez à une disposition en colonne pour les petits écrans */
-    text-align: center; /* Centrez le contenu dans la disposition en colonne */
+    flex-direction: column;
   }
 
-  .navbar .nav-links {
-    margin-left: 0; /* Réinitialisez la marge à zéro pour les petits écrans */
+  .navbar .burger-menu {
+    display: block;
+    margin: 30px; /* Centrez le bouton burger horizontalement */
+    margin-left: 0.2px;
   }
 
   .navbar .nav-links ul {
-    flex-direction: column; /* Affichez les liens en colonne pour les petits écrans */
-    margin: 0; /* Réinitialisez la marge à zéro pour les petits écrans */
-    padding: 0; /* Réinitialisez le rembourrage à zéro pour les petits écrans */
+    display: none;
+    text-align: center;
+  }
+
+  .navbar .nav-links.show ul {
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar .nav-links ul li {
-    width: 100%; /* Forcez chaque lien à occuper la largeur complète */
+    width: 100%;
   }
 }
-
