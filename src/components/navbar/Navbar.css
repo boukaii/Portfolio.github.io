@@ -71,7 +71,7 @@
 
   .burger-menu {
     display: block;
-    margin: 30px 0; /* Ajustez la marge pour le bouton de menu burger */
+    margin: 30px 0; 
   }
 
   .navbar .burger-menu {
