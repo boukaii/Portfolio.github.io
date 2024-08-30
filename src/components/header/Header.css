@@ -14,6 +14,10 @@
     font-weight: 700;
     line-height: 1.2;
 }
+h1 {
+  white-space: pre-line;
+}
+
 .contenue h2{
     color: white;
     font-size: 32px;

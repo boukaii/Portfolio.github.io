@@ -1,97 +1,87 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3%;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.burger-container {
-  margin-left: auto;
-}
-.navbar a {
-  color: rgb(0, 0, 0);
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.navbar .logo {
-  font-size: 2em;
-  font-weight: bold;
+.nav__link {
+  display: inline-block; /* Assure que le padding et les marges s'appliquent correctement */
+  padding: 10px 20px; /* Ajuste la taille de l'encadré */
+  text-align: center; /* Aligne le texte au centre */
+  text-decoration: none; /* Supprime le soulignement par défaut des liens */
+  font-weight: bold; /* Rend le texte en gras */
   color: rgb(37, 145, 245);
+
 }
-/* .nav-links{
-  margin-left: 30%;
-} */
-.navbar .nav-links ul {
+.nav__link:hover {
+  color: rgb(255, 255, 255); /* Couleur du texte au survol */
+  background: rgb(37, 145, 245); /* Couleur de fond au survol */
+  border-radius: 5px; /* Augmente l'arrondi des coins */
+  transition: .3s; /* Transition douce pour les changements */
+}
+.nav__item{
+  /* padding-left: 5%; */
+}
+
+.nav {
+  margin-top: 2%;
+  padding-left: 5%;
   display: flex;
-  scroll-behavior: smooth;
-}
-.navbar .nav-links ul li.active a {
-  font-weight: 600;
-  scroll-behavior: smooth;
-}
-.navbar .nav-links ul li a:hover {
-  color: rgb(255, 255, 255);
-  background: rgb(37, 145, 245);
-  border-radius: 3px;
-  transition: .3s;
-}
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
 
-
-.burger-menu {
+}
+.nav__brand {
+  text-transform: uppercase;
+  color: rgb(37, 145, 245);
+  font-weight: bold;
+}
+.nav_full{
+  padding-left: 15%;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav__toggler {
   display: none;
-  font-size: 1.5em;
-  cursor: pointer;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
 }
 
-.nav-links {
-  text-align: center;
-}
-
-@media (max-width: 767px) {
-
-
-  .nav-links {
-    margin-right: 25%;
-  }
-
-  .navbar{
-    padding: auto;
-  }
-
-
-
-  .burger-menu {
+@media screen and (max-width: 768px) {
+  .nav__toggler {
     display: block;
-    margin: 30px 0; 
+    cursor: pointer;
   }
-
-  .navbar .burger-menu {
-    display: block;
-    margin: 30px;
-    margin-left: 0.2px;
-  }
-
-  .navbar .nav-links ul {
-    display: none;
-    text-align: center;
-    
-  }
-
-  .navbar .nav-links.show ul {
-    display: flex;
+  .nav__menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: white;
+    color: black;
     flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
   }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
 
-  .navbar .nav-links ul li {
-    width: 100%;
-  }
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
 }

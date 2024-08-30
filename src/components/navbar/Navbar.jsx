@@ -1,36 +1,61 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 
-const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+function Navbar() {
+  const [active, setActive] = useState("nav__menu");
+  const [icon, setIcon] = useState("nav__toggler");
+  const navToggle = () => {
+    if (active === "nav__menu") {
+      setActive("nav__menu nav__active");
+    } else setActive("nav__menu");
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
+    // Icon Toggler
+    if (icon === "nav__toggler") {
+      setIcon("nav__toggler toggle");
+    } else setIcon("nav__toggler");
   };
   return (
-    <nav className="navbar">
-      <div className="logo-container">
-        <a href="" className="logo">Chevrier.G</a>
+    <nav className="nav">
+
+      <a href="#" className="nav__brand">
+        <h3>Chevrier.G</h3>
+      </a>
+      <div className="nav_full">
+      <ul className={active}>
+        <li className="nav__item">
+          <a href="#nav-pres" className="nav__link">
+            A propos de moi
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#nav-compet" className="nav__link">
+            Compétences
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#nav-projet" className="nav__link">
+            Portfolio
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="/media/cv.pdf" className="nav__link">
+            Mon CV
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="#nav-footer" className="nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
       </div>
-      <div className="burger-container">
-        <button className="burger-menu" onClick={toggleMenu}>
-          ☰
-        </button>
-      </div>
-      <div className={`nav-links ${showMenu ? 'show' : ''}`}>
-        <ul>
-          <li><a className="active" href="#nav-pres">A PROPOS DE MOI</a></li>
-          <li><a href="#nav-compet">COMPETENCES</a></li>
-          <li><a href="#nav-projet">PORTFOLIO</a></li>
-          <li><a href="/media/cv.pdf">MON CV</a></li>
-          <li><a className="#nav-footer" href="#nav-footer">CONTACT</a></li>
-        </ul>
+      <div onClick={navToggle} className={icon}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
     </nav>
   );
-  
-  
-
 }
 
 export default Navbar;

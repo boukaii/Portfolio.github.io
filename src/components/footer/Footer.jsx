@@ -9,7 +9,7 @@ function Footer() {
       <div className='global-footer'>
         <div className='link-footer'>
             <h3>DÉVELOPPEUR INFORMATIQUE </h3>
-            <p>Développeur Back-end ,
+            <p>Développeur Full Stack ,
             <br />
             je suis actuellement à la recherche d'opportunités <br /> d'emploi sur Lyon et ses alentours.</p> 
         </div>
